@@ -1,0 +1,21 @@
+img {
+    height: auto;
+    width: 400px;
+}
+
+.title {
+    color: blue;
+}
+
+.description {
+    line-height: 1.3;
+    font-size: large;
+}
+
+.ingredients-list {
+    font-size: large;
+}
+
+.directions-list {
+    font-size: large;
+}

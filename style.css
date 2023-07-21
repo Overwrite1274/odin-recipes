@@ -1,16 +1,33 @@
 * {
-    font-family: "Lucida Console" "Monaco" "monospace";
+    font-family: Lucida Console, Monaco, monospace;
+    
+}
+body{
     background-color: #19b1a9;
 }
 
-img {
-    height: auto;
-    width: 400px;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  
+.image-title-page {
+    width: auto;
+    height: 300px;
+    padding-left: 10px;
+    display: inline-block;
+}
+/*#recipe-description{
+    display: inline-block;
+}*/
+#welcome{
+    display: inline-block;
+    vertical-align: bottom;
+    width: 440px;
+    padding-left: 35px;
+}
+.container  {
+    margin: 30em;
+    border-color: #b11921;
+    border-style: solid;
+    background-color: #ffffff;
+    width: 1000px;
+    display: inline-block;
 }
 
 .title {
@@ -22,7 +39,7 @@ img {
 .description {
     line-height: 1.3;
     font-size: large;
-    text-align: center;
+    
 }
 
 .ingredients-list {
@@ -36,12 +53,14 @@ img {
 
 }
 
-body {
-    background-color: #19b1a9;
-}
-
-.food-classes a{
-    font-size: 30px;
+#food-classes a{
+    font-size: 20px;
     list-style: none;
+    display: inline;
+    text-align: center;
 
+}
+ul{
+    list-style: none;
+    display: inline-block;
 }

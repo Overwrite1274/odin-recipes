@@ -12,9 +12,7 @@ body{
     padding-left: 10px;
     display: inline-block;
 }
-/*#recipe-description{
-    display: inline-block;
-}*/
+
 #welcome{
     display: inline-block;
     vertical-align: bottom;
@@ -53,14 +51,11 @@ body{
 
 }
 
-#food-classes a{
+#food-classes li{
     font-size: 20px;
     list-style: none;
-    display: inline;
-    text-align: center;
-
-}
-ul{
-    list-style: none;
     display: inline-block;
+    text-align: right;
+    padding-left: -25px;
+
 }

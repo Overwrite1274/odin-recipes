@@ -51,12 +51,13 @@ body{
 
 }
 
-#food-classes li{
-    font-size: 20px;
-    display: inline-block;
-    text-align: center;
+#food-classes {
+    font-size: large;
+    /*display: inline-block;*/
     width: 100%;
     padding-left: 10px;
     padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 
 }
